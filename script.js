@@ -37,5 +37,15 @@ document.getElementById("container").appendChild(kullaniciResim);
 document.getElementById("container").appendChild(resultMessage);
 document.getElementById("container").appendChild(pcResim);
 
+if(playScor === 0) {
+    resultMessage.innerHTML = "Kaybettiniz";
+} 
+else if(playScor === 0.5) {
+    resultMessage.innerHTML = "Berabere";
+}
+else{
+    resultMessage.innerHTML = "Kazandınız, Tebrikler";
+}
+
 }
 
