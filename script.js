@@ -44,7 +44,7 @@ else if(playScor === 0.5) {
     resultMessage.innerHTML = "Berabere";
 }
 else{
-    resultMessage.innerHTML = "Kazandınız, Tebrikler";
+    resultMessage.innerHTML = "Tebrikler , Kazandınız";
 }
 
 }
