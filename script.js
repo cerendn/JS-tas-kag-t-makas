@@ -39,12 +39,18 @@ document.getElementById("container").appendChild(pcResim);
 
 if(playScor === 0) {
     resultMessage.innerHTML = "Kaybettiniz";
+    resultMessage.fontSize = "2rem";
+    resultMessage.style.color = "red";
 } 
 else if(playScor === 0.5) {
     resultMessage.innerHTML = "Berabere";
+    resultMessage.fontSize = "2rem";
+    resultMessage.style.color = "blue";
 }
 else{
     resultMessage.innerHTML = "Tebrikler , Kazandınız";
+    resultMessage.fontSize = "2rem";
+    resultMessage.style.color = "green";
 }
 
 }
